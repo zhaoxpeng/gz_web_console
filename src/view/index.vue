@@ -11,7 +11,7 @@
           </div>
           <div class="top-span1">
             <p>注册用户总数</p>
-            <p class="top-span2">{{ adminSum }}</p>
+            <p class="top-span2">{{ 1024||adminSum }}</p>
           </div>
         </div>
         <div class="top-col">
@@ -20,7 +20,7 @@
           </div>
           <div class="top-span1">
             <p>昨日新增用户人数</p>
-            <p class="top-span2">{{ yesterdayAdminSum }}</p>
+            <p class="top-span2">{{ 5||yesterdayAdminSum }}</p>
           </div>
         </div>
         <div class="top-col">
@@ -28,8 +28,8 @@
             <img class="top-image" src="../assets/images/icon3.png" alt="" />
           </div>
           <div class="top-span1">
-            <p>已发布资讯总数</p>
-            <p class="top-span2">{{ infoSum }}</p>
+            <p>已采集科技服务信息总数</p>
+            <p class="top-span2">{{ 62126||infoSum }}</p>
           </div>
         </div>
         <div class="top-col">
